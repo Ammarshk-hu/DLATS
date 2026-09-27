@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Application - DLATS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/admin-application-details.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-box">DL</div>
+        <div>
+            <h2>DLATS</h2>
+            <p>Driving License Application Tracking System</p>
+        </div>
+    </div>
+
+    <a href="dashboard.html">Back to Dashboard</a>
+</header>
+
+<main>
+
+    <section class="admin-details-page">
+
+        <div class="admin-details-heading">
+
+            <div>
+                <p>Application Management</p>
+                <h1>DL202600101</h1>
+            </div>
+
+            <span class="application-status">
+                Application Verification
+            </span>
+
+        </div>
+
+        <section class="details-section">
+
+            <h2>Applicant Details</h2>
+
+            <div class="details-grid">
+
+                <div>
+                    <span>Full Name</span>
+                    <strong>Rahul Sharma</strong>
+                </div>
+
+                <div>
+                    <span>Date of Birth</span>
+                    <strong>15 June 2002</strong>
+                </div>
+
+                <div>
+                    <span>Gender</span>
+                    <strong>Male</strong>
+                </div>
+
+                <div>
+                    <span>Phone Number</span>
+                    <strong>9876543210</strong>
+                </div>
+
+                <div>
+                    <span>Email Address</span>
+                    <strong>rahul@example.com</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="details-section">
+
+            <h2>Address Details</h2>
+
+            <div class="details-grid">
+
+                <div class="wide">
+                    <span>Address</span>
+                    <strong>123 Main Road</strong>
+                </div>
+
+                <div>
+                    <span>City</span>
+                    <strong>Mumbai</strong>
+                </div>
+
+                <div>
+                    <span>State</span>
+                    <strong>Maharashtra</strong>
+                </div>
+
+                <div>
+                    <span>Pincode</span>
+                    <strong>400001</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="details-section">
+
+            <h2>License Details</h2>
+
+            <div class="details-grid">
+
+                <div>
+                    <span>Application Type</span>
+                    <strong>New Driving License</strong>
+                </div>
+
+                <div>
+                    <span>Vehicle Class</span>
+                    <strong>LMV</strong>
+                </div>
+
+                <div>
+                    <span>Application Date</span>
+                    <strong>10 September 2026</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="details-section">
+
+            <h2>Application Status</h2>
+
+            <div class="status-timeline">
+
+                <div class="status-item completed">
+                    <span>1</span>
+
+                    <div>
+                        <strong>Application Submitted</strong>
+                        <p>Application was submitted by the applicant.</p>
+                    </div>
+                </div>
+
+                <div class="status-item current">
+                    <span>2</span>
+
+                    <div>
+                        <strong>Application Verification</strong>
+                        <p>Application is currently under verification.</p>
+                    </div>
+                </div>
+
+                <div class="status-item">
+                    <span>3</span>
+
+                    <div>
+                        <strong>Driving Test</strong>
+                        <p>Driving test will be scheduled after verification.</p>
+                    </div>
+                </div>
+
+                <div class="status-item">
+                    <span>4</span>
+
+                    <div>
+                        <strong>License Issued</strong>
+                        <p>License will be issued after successful completion.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="action-section">
+
+            <h2>Application Actions</h2>
+
+            <p>
+                Update the application status or reject the application.
+            </p>
+
+            <div class="action-buttons">
+
+                <button type="button" class="next-button">
+                    Move to Next Stage
+                </button>
+
+                <button type="button" class="reject-button">
+                    Reject Application
+                </button>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+<div class="reject-modal">
+
+    <div class="reject-box">
+
+        <h2>Reject Application</h2>
+
+        <p>
+            Please enter the reason for rejecting this application.
+        </p>
+
+        <label>Rejection Reason</label>
+
+        <textarea placeholder="Enter rejection reason"></textarea>
+
+        <div class="modal-buttons">
+
+            <button type="button" class="cancel-button">
+                Cancel
+            </button>
+
+            <button type="button" class="confirm-reject">
+                Confirm Rejection
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
