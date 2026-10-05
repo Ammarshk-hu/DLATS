@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Application - DLATS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/track-application.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-box">DL</div>
+        <div>
+            <h2>DLATS</h2>
+            <p>Driving License Application Tracking System</p>
+        </div>
+    </div>
+
+    <a href="dashboard.html">Back to Dashboard</a>
+</header>
+
+<main>
+
+    <section class="track-page">
+
+        <div class="track-heading">
+            <h1>Track Application</h1>
+            <p>Check the current status of your driving license application.</p>
+        </div>
+
+        <div class="track-box">
+
+            <label>Application Number</label>
+
+            <div class="track-input">
+                <input type="text" value="DL202600101">
+                <button type="button">Track</button>
+            </div>
+
+        </div>
+
+        <div class="status-box">
+
+            <div class="status-heading">
+                <div>
+                    <span>Application Number</span>
+                    <strong>DL202600101</strong>
+                </div>
+
+                <span class="current-status">
+                    Application Verification
+                </span>
+            </div>
+
+            <div class="status-timeline">
+
+                <div class="timeline-item completed">
+                    <div class="timeline-circle">1</div>
+
+                    <div>
+                        <strong>Application Submitted</strong>
+                        <p>Your application has been successfully submitted.</p>
+                        <span>10 September 2026</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item current">
+                    <div class="timeline-circle">2</div>
+
+                    <div>
+                        <strong>Application Verification</strong>
+                        <p>Your application is currently being reviewed.</p>
+                        <span>12 September 2026</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-circle">3</div>
+
+                    <div>
+                        <strong>Driving Test</strong>
+                        <p>Driving test will be scheduled after verification.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-circle">4</div>
+
+                    <div>
+                        <strong>License Issued</strong>
+                        <p>Your driving license will be issued after successful completion.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+</body>
+</html>

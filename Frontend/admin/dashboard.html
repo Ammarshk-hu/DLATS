@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - DLATS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/admin-dashboard.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-box">DL</div>
+        <div>
+            <h2>DLATS</h2>
+            <p>Driving License Application Tracking System</p>
+        </div>
+    </div>
+
+    <a href="login.html">Logout</a>
+</header>
+
+<main>
+
+    <section class="admin-dashboard">
+
+        <div class="admin-heading">
+            <div>
+                <p>Admin Portal</p>
+                <h1>Admin Dashboard</h1>
+            </div>
+        </div>
+
+        <div class="summary-cards">
+
+            <div class="summary-card">
+                <span>Total Applications</span>
+                <strong>120</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Pending Applications</span>
+                <strong>35</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Approved Applications</span>
+                <strong>70</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Rejected Applications</span>
+                <strong>15</strong>
+            </div>
+
+        </div>
+
+        <section class="search-section">
+
+            <h2>Search Application</h2>
+
+            <p>
+                Enter an application number to view and manage an application.
+            </p>
+
+            <div class="admin-search">
+
+                <input
+                    type="text"
+                    placeholder="Enter application number"
+                >
+
+                <button type="button">Search</button>
+
+            </div>
+
+        </section>
+
+        <section class="recent-section">
+
+            <h2>Recent Applications</h2>
+
+            <div class="application-table">
+
+                <div class="table-row table-heading">
+
+                    <span>Application No.</span>
+                    <span>Applicant Name</span>
+                    <span>Vehicle Class</span>
+                    <span>Status</span>
+                    <span>Action</span>
+
+                </div>
+
+                <div class="table-row">
+
+                    <span>DL202600101</span>
+                    <span>Rahul Sharma</span>
+                    <span>LMV</span>
+                    <span class="pending">Application Verification</span>
+                    <a href="application-details.html">View</a>
+
+                </div>
+
+                <div class="table-row">
+
+                    <span>DL202600102</span>
+                    <span>Priya Patel</span>
+                    <span>MCWG</span>
+                    <span class="approved">Approved</span>
+                    <a href="application-details.html">View</a>
+
+                </div>
+
+                <div class="table-row">
+
+                    <span>DL202600103</span>
+                    <span>Arjun Mehta</span>
+                    <span>LMV</span>
+                    <span class="rejected">Rejected</span>
+                    <a href="application-details.html">View</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+
+</body>
+</html>
